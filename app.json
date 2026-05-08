@@ -1,0 +1,24 @@
+{
+  "expo": {
+    "name": "ParkShell",
+    "slug": "parkshell",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "scheme": "parkshell",
+    "userInterfaceStyle": "dark",
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.parkshell.app"
+    },
+    "android": {
+      "package": "com.parkshell.app"
+    },
+    "web": {
+      "bundler": "metro"
+    },
+    "plugins": [
+      "expo-location",
+      "expo-notifications"
+    ]
+  }
+}
