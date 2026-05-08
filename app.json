@@ -11,7 +11,11 @@
       "bundleIdentifier": "com.parkshell.app"
     },
     "android": {
-      "package": "com.parkshell.app"
+      "package": "com.parkshell.app",
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ]
     },
     "web": {
       "bundler": "metro"
@@ -19,6 +23,11 @@
     "plugins": [
       "expo-location",
       "expo-notifications"
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "bbba9b79-2f3a-4970-85e5-6dcfa4683a73"
+      }
+    }
   }
 }
